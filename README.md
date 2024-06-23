@@ -7,7 +7,7 @@
     <title> learn new slang word </title>
 </head>
 <body>
-    <h1> GEN-Z DICTIONARY </h1>
+    <h2> GEN-Z DICTIONARY </h2>
     <p>Adios!!!! add new words to create this dictionary, learn new word with new date everyday.  </p>
 </body>
 </html>
