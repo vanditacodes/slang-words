@@ -1,0 +1,15 @@
+f=open("slang", "r")
+x=eval(input("suh gens"))
+from datetime import date
+import tkinter as gui
+import random
+lines=f.readlines()
+random_line= random.choice(lines)
+t=gui.Tk()
+today = date.today()
+def hcb():
+    print(f"new word:{random_line.strip()}",today)
+b=gui.Button(t,text="Today date is: ",command=hcb)
+print(x,';)')
+b.pack()
+t.mainloop()
